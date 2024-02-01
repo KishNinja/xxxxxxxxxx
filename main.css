@@ -1,0 +1,68 @@
+/* Импортируем шрифт. */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Noto+Sans+JP:wght@100;200;300&family=Open+Sans:ital,wght@0,300;0,800;1,300;1,800&family=Roboto:ital,wght@1,100&family=Rubik+Glitch+Pop&family=Single+Day&display=swap");
+
+body {
+  background: url("play.jpg");
+  background-size: cover;
+  height: 100vb;
+}
+
+.lorem {
+  color: rgb(37, 224, 0);
+  /* text-aling говорит где будет находится текст(объект) */
+
+  /* 
+  center - Центр
+  right - Справа
+  Start - Слева
+  justify - Говорит что весь текст будет растянут от краю до края.
+  */
+  text-align: center;
+
+  /* Размером шрифта занимается свойсвто font-size */
+  /* единица em говорит в сколько раз текст будет больше изначального размера. */
+  font-size: 34px;
+
+  /* Свойство font-style говорит будет ли текст курсивом(накланеным) */
+  /* Italic - Накланен 
+    normal - Нормальное состояние.
+  */
+  font-style: italic;
+
+  /* font-weight говорит будет ли текст жирным
+    font-weight: normatl - нормальный текст, bold - Жирный текст.
+    font-weight: bolder шрифт еще жирнее чем bold (Не для всех тегов потдержуется).
+  */
+  font-weight: 400;
+
+  font-family: "Single Day", cursive;
+
+  /* text-transform - говорит в каком регистре будет шрифт. */
+  /* 
+  lowercase - Все символы в нижнем регистре.
+  uppercase - Все символы в большом регистре.
+  capitalize - Каждый первый символ в новом слове, в большом регистре.
+   */
+  text-transform: lowercase;
+
+  /* word-spasing говорит сколько px будет между словами (какое расстояние будет между словами). */
+  word-spacing: 30px;
+
+  letter-spacing: 30px;
+}
+
+span {
+  color: aqua;
+}
+
+.one {
+  color: yellow;
+}
+
+.two {
+  color: blue;
+}
+
+.three {
+  color: red;
+}
